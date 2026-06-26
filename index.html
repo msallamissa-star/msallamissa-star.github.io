@@ -4,10 +4,25 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#fbe7ec" />
-<meta http-equiv="refresh" content="0; url=https://msallamissa-star.github.io/Our-World/" />
 <title>Opening Chloe's World</title>
 <script>
-window.location.replace("https://msallamissa-star.github.io/Our-World/");
+(function(){
+  var base = "https://msallamissa-star.github.io/Our-World/";
+  var path = (window.location.pathname || "").replace(/^\/+|\/+$/g, "");
+  var hash = window.location.hash || "";
+  var route = "";
+  if(hash.indexOf("#/") === 0){
+    route = hash;
+  } else if(path){
+    route = "#/" + path.split("/").pop();
+  }
+  var known = { home:1, meals:1, grownmeals:1, game:1, done:1, grownups:1 };
+  if(route && known[route.replace(/^#\//, "")]){
+    window.location.replace(base + route);
+  } else {
+    window.location.replace(base);
+  }
+})();
 </script>
 <style>
   body{

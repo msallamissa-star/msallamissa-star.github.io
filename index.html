@@ -6,6 +6,15 @@
 <meta name="theme-color" content="#faf3ef" />
 <meta name="description" content="My World gives parents one calm plan for the day: what to do with your child, what to feed them, and a weekly table for the grown ups too. Private by design. UAE first, Qatar included." />
 <title>My World: One calm plan for the day</title>
+<link rel="icon" type="image/png" href="/assets/brand-icon.png" />
+<link rel="apple-touch-icon" href="/assets/brand-icon.png" />
+<link rel="canonical" href="https://msallamissa-star.github.io/" />
+<meta property="og:title" content="My World: One calm plan for the day" />
+<meta property="og:description" content="What to do with your child, what to feed them, and a weekly table for the grown ups too. Private by design. UAE first, Qatar included from day one." />
+<meta property="og:image" content="https://msallamissa-star.github.io/assets/profile-avatar-myworld.png" />
+<meta property="og:url" content="https://msallamissa-star.github.io/" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
 <style>
   :root{
     --ivory:#faf3ef; --rose:#f3e0dc; --ink:#3d2f2a; --soft:#7a655c;
@@ -21,14 +30,9 @@
   .brand{ display:flex; align-items:center; gap:12px; margin-bottom:36px; }
   .mark{
     width:52px; height:52px; border-radius:14px; flex:none;
-    background:linear-gradient(180deg,#fbe3c4 0%,#f6c9a8 55%,#9fbf8f 55%,#7ea86e 100%);
-    position:relative; overflow:hidden;
+    object-fit:cover; display:block;
   }
-  .mark::after{
-    content:""; position:absolute; top:9px; left:50%; transform:translateX(-50%);
-    width:20px; height:20px; border-radius:50%; background:#f7a765;
-  }
-  .brand h1{ font-size:1.6rem; letter-spacing:.2px; }
+  .brand h1{ font-size:1.6rem; letter-spacing:.2px; color:var(--plum); }
   .lede{ font-size:1.5rem; line-height:1.45; margin-bottom:28px; }
   .pillars{ list-style:none; margin-bottom:28px; }
   .pillars li{
@@ -39,10 +43,19 @@
   .pillars li:last-child{ border-bottom:1px solid rgba(61,47,42,.14); }
   .pillars b{ color:var(--ink); font-weight:600; }
   .privacy{ font-size:1.08rem; line-height:1.55; margin-bottom:26px; }
-  .geo{
+  .cta{
     display:inline-block; background:var(--terracotta); color:#fff;
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:1.02rem; font-weight:600;
+    padding:13px 26px; border-radius:12px; text-decoration:none; margin-bottom:12px;
+  }
+  .cta:hover{ background:#9c4a34; }
+  .cta-note{
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:.9rem;
+    color:var(--soft); margin-bottom:28px;
+  }
+  .geo{
     font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:.95rem;
-    padding:9px 18px; border-radius:999px; margin-bottom:30px;
+    color:var(--soft); margin-bottom:30px;
   }
   .links{ font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:.95rem; color:var(--soft); line-height:1.9; }
   .links a{ color:var(--plum); font-weight:600; text-decoration:none; border-bottom:1px solid rgba(92,70,82,.35); }
@@ -52,7 +65,7 @@
 </head>
 <body>
 <main>
-  <div class="brand"><div class="mark" aria-hidden="true"></div><h1>My World</h1></div>
+  <div class="brand"><img class="mark" src="/assets/brand-icon.png" alt="" /><h1>My World</h1></div>
 
   <p class="lede">One calm plan for the day: what to do with your child, what to feed them, and a weekly table for the grown&nbsp;ups too.</p>
 
@@ -65,7 +78,10 @@
 
   <p class="privacy">Everything you enter stays on your phone. There is no server that receives it, and nothing is sold. Every meal and activity idea carries its source inside the app.</p>
 
-  <p><span class="geo">UAE first, Qatar included from day one</span></p>
+  <p><a class="cta" href="mailto:msallam_issa@hotmail.com?subject=My%20World%20launch%20list&amp;body=Please%20email%20me%20on%20launch%20day.">Get one email on launch day</a></p>
+  <p class="cta-note">No newsletter. One email when My World is live on the App Store.</p>
+
+  <p class="geo">UAE first, Qatar included from day one.</p>
 
   <p class="links">
     Coming soon to iPhone.<br />

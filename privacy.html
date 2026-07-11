@@ -3,32 +3,38 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="theme-color" content="#fbe7ec" />
+<meta name="theme-color" content="#faf3ef" />
 <title>My World Privacy Policy</title>
+<link rel="icon" type="image/png" href="/assets/brand-icon.png" />
+<link rel="apple-touch-icon" href="/assets/brand-icon.png" />
 <style>
-  :root { color-scheme: light; }
+  :root { color-scheme: light; --ivory:#faf3ef; --ink:#3d2f2a; --soft:#7a655c; --terracotta:#b3573f; --plum:#5c4652; --rose:#f3e0dc; }
   body {
     margin: 0;
-    background: #fff7f9;
-    color: #2a2530;
+    background: var(--ivory);
+    color: var(--ink);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     -webkit-text-size-adjust: 100%;
   }
   .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 72px; }
-  header { border-bottom: 2px solid #f5cdd8; padding-bottom: 16px; margin-bottom: 24px; }
+  .brand { display:flex; align-items:center; gap:10px; margin-bottom:20px; }
+  .brand img { width:40px; height:40px; border-radius:11px; display:block; }
+  .brand span { font-family:Georgia,"Times New Roman",serif; font-size:1.25rem; color:var(--plum); }
+  header { border-bottom: 2px solid var(--rose); padding-bottom: 16px; margin-bottom: 24px; }
   h1 { font-size: 1.7rem; margin: 0 0 6px; }
   h2 { font-size: 1.2rem; margin: 32px 0 8px; }
-  .updated { color: #8a7d86; font-size: 0.95rem; }
+  .updated { color: var(--soft); font-size: 0.95rem; }
   ul { padding-left: 20px; }
   li { margin: 6px 0; }
-  a { color: #c2185b; }
-  .short { background: #fdeef2; border: 1px solid #f5cdd8; border-radius: 12px; padding: 14px 18px; }
-  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #f0d4dd; color: #8a7d86; font-size: 0.9rem; }
+  a { color: var(--plum); }
+  .short { background:#f5ece6; border: 1px solid var(--rose); border-radius: 12px; padding: 14px 18px; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rose); color: var(--soft); font-size: 0.9rem; }
 </style>
 </head>
 <body>
 <div class="wrap">
+  <div class="brand"><img src="/assets/brand-icon.png" alt="" /><span>My World</span></div>
   <header>
     <h1>My World Privacy Policy</h1>
     <div class="updated">Last updated: 12 July 2026</div>

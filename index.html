@@ -1,124 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#faf3ef" />
-<meta name="description" content="My World is live on iPhone. Version 1.3, now in preparation, adds Mother Care and the Family Dashboard." />
-<title>My World: One calm plan for the day</title>
+<meta name="description" content="My World brings Mother Care, family meals, play and reading together in a calm English and Arabic app for parents." />
+<title>My World: Mother Care, family meals and play</title>
 <link rel="icon" type="image/png" href="/assets/brand-icon.png" />
 <link rel="apple-touch-icon" href="/assets/brand-icon.png" />
 <link rel="canonical" href="https://msallamissa-star.github.io/" />
-<meta property="og:title" content="My World: One calm plan for the day" />
-<meta property="og:description" content="Download the current public app, and see what is being prepared for the next update." />
+<link rel="alternate" hreflang="en-GB" href="https://msallamissa-star.github.io/" />
+<link rel="alternate" hreflang="ar" href="https://msallamissa-star.github.io/index-ar.html" />
+<link rel="alternate" hreflang="x-default" href="https://msallamissa-star.github.io/" />
+<meta property="og:title" content="My World: Mother Care, family meals and play" />
+<meta property="og:description" content="One calm English and Arabic app for mothers and families." />
 <meta property="og:image" content="https://msallamissa-star.github.io/assets/og-card-home.png" />
 <meta property="og:url" content="https://msallamissa-star.github.io/" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <style>
-  :root{
-    --ivory:#faf3ef; --rose:#f3e0dc; --ink:#3d2f2a; --soft:#7a655c;
-    --terracotta:#b3573f; --plum:#5c4652;
-  }
-  *{ margin:0; padding:0; box-sizing:border-box; }
-  body{
-    min-height:100vh; background:linear-gradient(170deg,var(--ivory) 0%,var(--rose) 100%);
-    color:var(--ink); font-family:Georgia,"Times New Roman",serif;
-    display:flex; align-items:center; justify-content:center; padding:32px 20px;
-  }
-  main{ max-width:640px; width:100%; }
-  .brand{ display:flex; align-items:center; gap:12px; margin-bottom:36px; }
-  .mark{
-    width:52px; height:52px; border-radius:14px; flex:none;
-    object-fit:cover; display:block;
-  }
-  .brand h1{ font-size:1.6rem; letter-spacing:.2px; color:var(--plum); }
-  .lede{ font-size:1.5rem; line-height:1.45; margin-bottom:28px; }
-  .pillars{ list-style:none; margin-bottom:28px; }
-  .pillars li{
-    padding:10px 0; border-top:1px solid rgba(61,47,42,.14);
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
-    font-size:1.02rem; color:var(--soft); line-height:1.5;
-  }
-  .pillars li:last-child{ border-bottom:1px solid rgba(61,47,42,.14); }
-  .pillars b{ color:var(--ink); font-weight:600; }
-  .privacy{ font-size:1.08rem; line-height:1.55; margin-bottom:26px; }
-  .cta{
-    display:inline-block; background:var(--terracotta); color:#fff;
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:1.02rem; font-weight:600;
-    padding:13px 26px; border-radius:12px; text-decoration:none; margin-bottom:12px;
-  }
-  .cta:hover{ background:#9c4a34; }
-  .cta-note{
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:.9rem;
-    color:var(--soft); margin-bottom:28px;
-  }
-  .geo{
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:.95rem;
-    color:var(--soft); margin-bottom:30px;
-  }
-  .support{
-    margin:4px 0 30px; padding:18px 20px; border:1px solid rgba(61,47,42,.14);
-    border-radius:14px; background:rgba(255,255,255,.35);
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.55;
-  }
-  .support h2{ font-family:Georgia,"Times New Roman",serif; color:var(--plum); font-size:1.25rem; margin:0 0 8px; }
-  .support p{ color:var(--soft); margin:8px 0; }
-  .support a{ color:var(--plum); font-weight:600; }
-  .release-note{
-    margin:0 0 24px; padding:14px 18px; border-left:4px solid var(--terracotta);
-    border-radius:10px; background:rgba(255,255,255,.48);
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--soft); line-height:1.55;
-  }
-  .release-note strong{ color:var(--ink); }
-  .links{ font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:.95rem; color:var(--soft); line-height:1.9; }
-  .links a{ color:var(--plum); font-weight:600; text-decoration:none; border-bottom:1px solid rgba(92,70,82,.35); }
-  .links a:hover{ border-bottom-color:var(--plum); }
-  @media (max-width:480px){ .lede{ font-size:1.25rem; } .brand h1{ font-size:1.35rem; } }
+  :root{--ivory:#faf3ef;--rose:#f3e0dc;--ink:#3d2f2a;--soft:#715f57;--terracotta:#a84f39;--plum:#5c4652}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:linear-gradient(170deg,var(--ivory),var(--rose));color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+  main{max-width:760px;margin:auto;padding:32px 20px 72px}
+  .top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:34px}
+  .brand{display:flex;align-items:center;gap:12px}.brand img{width:52px;height:52px;border-radius:14px}.brand b{font:700 1.6rem Georgia,serif;color:var(--plum)}
+  .lang{color:var(--plum);font-weight:700}
+  h1{font:700 clamp(2rem,7vw,3.5rem)/1.08 Georgia,serif;color:var(--plum);margin:0 0 18px}
+  .lede{font:1.25rem/1.55 Georgia,serif;margin:0 0 26px}
+  .release,.panel{background:rgba(255,255,255,.52);border:1px solid rgba(61,47,42,.15);border-radius:14px;padding:16px 18px;margin:0 0 24px}
+  .release{border-inline-start:4px solid var(--terracotta)}
+  .pillars{list-style:none;padding:0;margin:0 0 24px}.pillars li{padding:13px 0;border-top:1px solid rgba(61,47,42,.14)}.pillars li:last-child{border-bottom:1px solid rgba(61,47,42,.14)}
+  .pillars b{color:var(--plum)}
+  .privacy,.subscription{font-size:1.02rem;margin:0 0 22px}
+  .cta{display:inline-block;background:var(--terracotta);color:#fff;text-decoration:none;font-weight:800;padding:14px 24px;border-radius:12px;margin:0 0 10px}
+  .cta-note,.fine{color:var(--soft);font-size:.92rem;margin:0 0 24px}
+  a{color:var(--plum)}.links{line-height:2}
 </style>
 </head>
 <body>
 <main>
-  <div class="brand"><img class="mark" src="/assets/brand-icon.png" alt="" /><h1>My World</h1></div>
+  <div class="top">
+    <div class="brand"><img src="/assets/brand-icon.png" alt="" /><b>My World</b></div>
+    <a class="lang" href="/index-ar.html" hreflang="ar" lang="ar" dir="rtl">العربية</a>
+  </div>
 
-  <p class="lede">One calm home for your family: Development, Little Meals and Parent Table now, with Mother Care and the Family Dashboard being prepared for the next update.</p>
+  <h1>My World: Mother Care, family meals and play</h1>
+  <p class="lede">One calm home for a mother and her family: Mother Care, Development, Little Meals, Parent Table and Family Dashboard, in English and Arabic.</p>
 
-  <p class="release-note"><strong>Available now:</strong> the App Store currently serves My World version 1.1. <strong>Next update:</strong> version 1.3 is in preparation and has not been uploaded, submitted or released. Mother Care and the Family Dashboard wording below describe that planned update, not the version currently downloaded from the App Store.</p>
+  <p class="release"><strong>App Store availability:</strong> Apple shows the version currently available in each storefront. Version 1.3, including Mother Care and Family Dashboard, is being prepared for App Review and is not yet publicly released.</p>
 
   <ul class="pillars">
-    <li><b>Development.</b> Short parent-led activities, reading guidance and real animal media, tuned to your child's age.</li>
-    <li><b>Little Meals.</b> Age-filtered meal ideas with allergen controls, Safe prep guidance, recipes and shopping lists.</li>
-    <li><b>Mother Care, coming in version 1.3.</b> A no-storage reference from pregnancy through the first year, with named official-source links opened only after your tap.</li>
-    <li><b>Parent Table.</b> A real weekly meal plan and recipe collection for the adults.</li>
-    <li><b>Family Dashboard, coming in version 1.3.</b> The current Grown-Ups area is renamed and continues to hold your cooking history, reminders, family settings, backup controls and app preferences.</li>
-    <li><b>Private by design.</b> No account. No ads. No third-party tracking.</li>
+    <li><b>Mother Care.</b> General information from pregnancy through one year after birth, with stage topics, urgent warning signs and named official-source links. Setup keeps one Mother Care answer on this device to choose the path and local reminders; browsing Mother Care saves no stage, topic, symptom, date, score, assessment or history.</li>
+    <li><b>Development.</b> Short adult-led activities, reading guidance and real animals for calm time together.</li>
+    <li><b>Little Meals.</b> Age-filtered meal ideas with allergens, Safe prep, recipes and shopping lists where the section is available.</li>
+    <li><b>Parent Table.</b> Adult lunch and dinner planning, searchable recipes and shopping lists.</li>
+    <li><b>Family Dashboard.</b> Profiles, the week, cooking history, reminders, settings, backup and restore in one place.</li>
   </ul>
 
-  <p class="privacy">Family-entered data stays in the app’s local storage and is not automatically transmitted to My World. A parent can deliberately share selected content or export an encrypted backup. On Apple devices, the app separately contacts Apple to load subscription details, check status, and process a purchase or restore; those checks send no family-entered data to My World. Family-entered data is not sold. In version 1.3, Mother Care stores no stage, topic, symptom or urgent-row selection. Feeding, activity and Mother Care guidance show the published sources that informed them.</p>
+  <p class="privacy"><strong>Privacy.</strong> Family-entered data stays in the app’s local storage and is not automatically transmitted to My World. One Mother Care setup preference stays on this device and is not sent to My World. A parent can deliberately share selected content or export an encrypted backup. On Apple devices, the app separately contacts Apple for product, entitlement, purchase and restore operations; those checks send no family-entered data to My World.</p>
 
-  <p><a class="cta" href="https://apps.apple.com/ae/app/my-world-family-meals-play/id6790840913">Download current version 1.1</a></p>
-  <p class="cta-note">Downloads the current public version 1.1 on iPhone. Apple shows the current price, billing period, and any introductory offer for which your Apple Account is eligible before purchase.</p>
+  <p class="subscription"><strong>Subscription.</strong> On a fresh installation of version 1.3, a verified subscription is required after setup. Eligible Apple Accounts can confirm Apple’s 14-day introductory free trial, then the selected monthly or annual plan renews automatically unless cancelled. Ineligible accounts start the standard paid subscription when purchase is confirmed. If plans or status are unavailable, first run offers Retry and Restore Purchases only.</p>
 
-  <p class="geo">Availability varies by storefront. Apple displays the local subscription price, billing period, and applicable offer terms before purchase.</p>
+  <p><a class="cta" href="https://apps.apple.com/ae/app/my-world-family-meals-play/id6790840913">View My World on the App Store</a></p>
+  <p class="cta-note">Apple shows the version, local price, billing period and any introductory offer for which the Apple Account is eligible.</p>
 
-  <section class="support" aria-labelledby="support-title">
+  <section class="panel" aria-labelledby="support-title">
     <h2 id="support-title">Support</h2>
-    <p>For help with setup, reminders, sharing, backup restore, subscriptions or another app feature, email <a href="mailto:msallam_issa@hotmail.com">msallam_issa@hotmail.com</a>. Please include the app version and what you were trying to do, but do not email a child's name or private health details.</p>
-    <p>Purchase and restore controls are inside the app, and Apple subscription management is available from your Apple Account settings. Depending on your installed version, the parent settings area is called Grown-Ups or Family Dashboard. Privacy and Terms links remain available below.</p>
+    <p>For help with setup, subscriptions, reminders, sharing, backup or another app feature, email <a href="mailto:msallam_issa@hotmail.com">msallam_issa@hotmail.com</a>. Include the app version and what you were trying to do, but do not email a child’s name or private health details.</p>
   </section>
 
   <p class="links">
-    Follow along: <a href="https://www.instagram.com/myworld.parents/">@myworld.parents on Instagram</a><br />
-    Questions: <a href="mailto:msallam_issa@hotmail.com">msallam_issa@hotmail.com</a><br />
-    <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a>
+    <a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Use</a><br />
+    <a href="https://www.instagram.com/myworld.parents/">@myworld.parents on Instagram</a>
   </p>
-  <p class="links" style="font-size:.78rem;opacity:.75;max-width:38rem;margin:0 auto">
-    My World deliberately uses published guidance from multiple established public-health and education
-    organisations rather than presenting one individual professional's opinion as approval. The named
-    organisations and individuals have not reviewed, endorsed, or partnered with My World.
-    Use of CDC materials does not imply endorsement by CDC, ATSDR, HHS, or the U.S. Government.
-    This is general information for families, not medical or developmental advice.
-  </p>
+  <p class="fine">Mother Care provides general information and urgent care-seeking guidance. It does not diagnose, assess symptoms or replace a clinician. Named sources have not reviewed, approved or endorsed My World.</p>
 </main>
 </body>
 </html>

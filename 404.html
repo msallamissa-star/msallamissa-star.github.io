@@ -7,26 +7,11 @@
 <title>My Family World</title>
 <link rel="icon" type="image/png" href="/assets/brand-icon.png" />
 <script>
-(function(){
-  var base = "https://msallamissa-star.github.io/Our-World/";
-  var path = (window.location.pathname || "").replace(/^\/+|\/+$/g, "");
-  var hash = window.location.hash || "";
-  var route = "";
-  if(hash.indexOf("#/") === 0){
-    route = hash;
-  } else if(path){
-    route = "#/" + path.split("/").pop();
-  }
-  var known = { home:1, meals:1, grownmeals:1, game:1, done:1, grownups:1 };
-  if(route && known[route.replace(/^#\//, "")]){
-    window.location.replace(base + route);
-  } else {
-    window.location.replace("https://msallamissa-star.github.io/");
-  }
-})();
+window.location.replace("https://msallamissa-star.github.io/");
 </script>
 </head>
 <body>
-Opening...
+<p>This page has moved. <a href="https://msallamissa-star.github.io/">Open My Family World</a>.</p>
+<p><a href="https://msallamissa-star.github.io/#support-title">Support</a> · <a href="https://apps.apple.com/app/my-family-world/id6790840913">View My Family World on the App Store</a></p>
 </body>
 </html>

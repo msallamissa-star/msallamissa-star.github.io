@@ -4,27 +4,41 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#faf3ef" />
-<meta name="description" content="My Family World brings Mother Care, family meals, play and reading together in a calm English, Arabic and Spanish app for parents. Version 1.6 adds a Family calendar." />
-<title>My Family World</title>
-<link rel="icon" type="image/png" href="/assets/brand-icon.png" />
-<link rel="apple-touch-icon" href="/assets/brand-icon.png" />
+<meta name="apple-itunes-app" content="app-id=6790840913" />
+<meta name="description" content="Plan the family week on iPhone in the Family calendar: meals, play, notes and shopping. Plus Mother Care with named sources you can open. A subscription is required after setup." />
+<title>My Family World: family calendar, meals and care for mum</title>
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/brand-icon-192.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/brand-icon-180.png" />
 <link rel="canonical" href="https://msallamissa-star.github.io/" />
-<link rel="alternate" hreflang="en-GB" href="https://msallamissa-star.github.io/" />
+<link rel="alternate" hreflang="en" href="https://msallamissa-star.github.io/" />
 <link rel="alternate" hreflang="ar" href="https://msallamissa-star.github.io/index-ar.html" />
+<link rel="alternate" hreflang="es" href="https://msallamissa-star.github.io/index-es.html" />
 <link rel="alternate" hreflang="x-default" href="https://msallamissa-star.github.io/" />
+<meta property="og:site_name" content="My Family World" />
 <meta property="og:title" content="My Family World" />
-<meta property="og:description" content="One calm English, Arabic and Spanish app for mothers and families. Version 1.6 adds a Family calendar." />
-<meta property="og:image" content="https://msallamissa-star.github.io/assets/og-card-home.png" />
+<meta property="og:description" content="Plan the family week: meals, play and the little things. My Family World is an iPhone app. A subscription is required after setup." />
+<meta property="og:image" content="https://msallamissa-star.github.io/assets/brand-icon-512.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:image:alt" content="My Family World app icon" />
 <meta property="og:url" content="https://msallamissa-star.github.io/" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:locale" content="en_GB" />
+<meta name="twitter:card" content="summary" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"WebSite","@id":"https://msallamissa-star.github.io/#website","name":"My Family World","alternateName":"عالم عائلتي","url":"https://msallamissa-star.github.io/"},
+ {"@type":"MobileApplication","@id":"https://msallamissa-star.github.io/#app","name":"My Family World","alternateName":"عالم عائلتي","operatingSystem":"iOS","applicationCategory":"LifestyleApplication","inLanguage":["en","ar","es"],"url":"https://msallamissa-star.github.io/","installUrl":"https://apps.apple.com/app/my-family-world/id6790840913","image":"https://msallamissa-star.github.io/assets/brand-icon.png"}
+]}
+</script>
 <style>
   :root{--ivory:#faf3ef;--rose:#f3e0dc;--ink:#3d2f2a;--soft:#715f57;--terracotta:#a84f39;--plum:#5c4652}
   *{box-sizing:border-box}
   body{margin:0;min-height:100vh;background:linear-gradient(170deg,var(--ivory),var(--rose));color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
   main{max-width:760px;margin:auto;padding:32px 20px 72px}
-  .top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:34px}
+  .top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:34px}
   .brand{display:flex;align-items:center;gap:12px}.brand img{width:52px;height:52px;border-radius:14px}.brand b{font:700 1.6rem Georgia,serif;color:var(--plum)}
+  .langs{display:flex;flex-wrap:wrap;gap:6px 16px;margin-inline-start:auto}
   .lang{color:var(--plum);font-weight:700}
   h1{font:700 clamp(2rem,7vw,3.5rem)/1.08 Georgia,serif;color:var(--plum);margin:0 0 18px}
   .lede{font:1.25rem/1.55 Georgia,serif;margin:0 0 26px}
@@ -41,14 +55,22 @@
 <body>
 <main>
   <div class="top">
-    <div class="brand"><img src="/assets/brand-icon.png" alt="" /><b>My Family World</b></div>
-    <a class="lang" href="/index-ar.html" hreflang="ar" lang="ar" dir="rtl">العربية</a>
+    <div class="brand"><img src="/assets/brand-icon-180.png" alt="" width="52" height="52" /><b>My Family World</b></div>
+    <nav class="langs" aria-label="Language">
+      <a class="lang" href="/index-ar.html" hreflang="ar" lang="ar" dir="rtl">العربية</a>
+      <a class="lang" href="/index-es.html" hreflang="es" lang="es">Español</a>
+    </nav>
   </div>
 
   <h1>My Family World</h1>
-  <p class="lede">One calm home for a mother and her family: Mother Care, Development, Little Meals, Parent Table and Family Dashboard, in English, Arabic and Spanish. Version 1.6 adds a Family calendar; these web pages stay in English and Arabic.</p>
+  <p class="lede">One calm home for a mother and her family: Mother Care, Development, Little Meals, Parent Table and Family Dashboard, in English, Arabic and Spanish. Version 1.6 adds a Family calendar. This page is also in Arabic and Spanish; the privacy and terms pages are in English and Arabic.</p>
 
-  <p class="release"><strong>App Store availability:</strong> My Family World is available on the App Store, including in the United States, the United Kingdom, and the United Arab Emirates. Version 1.6 is available on the App Store.</p>
+  <!-- LAUNCH 1.6.1 PRE RELEASE START. Shown until Apple releases version 1.6.1. On release day delete this block through PRE RELEASE END. -->
+  <p class="release"><strong>App Store availability:</strong> My Family World is available on the App Store for iPhone in many countries and regions, including Saudi Arabia, the United Arab Emirates and the other Gulf states, the United Kingdom, the United States, India, the countries of the European Union, Mexico and other Latin American countries. Version 1.6 is available on the App Store. Version 1.6.1 is being released there after Apple's review.</p>
+  <!-- LAUNCH 1.6.1 PRE RELEASE END -->
+  <!-- LAUNCH 1.6.1 RELEASE DAY START. Held until Apple releases version 1.6.1. On release day remove only this line and the line RELEASE DAY END below.
+  <p class="release"><strong>App Store availability:</strong> My Family World is available on the App Store for iPhone in many countries and regions, including Saudi Arabia, the United Arab Emirates and the other Gulf states, the United Kingdom, the United States, India, the countries of the European Union, Mexico and other Latin American countries. Version 1.6.1 is available on the App Store.</p>
+  LAUNCH 1.6.1 RELEASE DAY END -->
 
   <ul class="pillars">
     <li><b>Mother Care.</b> General information from pregnancy through one year after birth, with stage topics, urgent warning signs and named official-source links. Setup keeps one Mother Care answer on this device to choose the path and local reminders; browsing Mother Care saves no stage, topic, symptom, date, score, assessment or history.</li>
@@ -61,14 +83,15 @@
 
   <p class="privacy"><strong>Privacy.</strong> Family-entered data stays in the app’s local storage and is not automatically transmitted to My Family World. One Mother Care setup preference stays on this device and is not sent to My Family World. A parent can deliberately share selected content or export an encrypted backup. On Apple devices, the app separately contacts Apple for product, entitlement, purchase and restore operations; those checks send no family-entered data to My Family World. In version 1.6, Family calendar plans also stay on this device, and book cover pictures in the Books list load online from Open Library and, for some covers, from Internet Archive servers.</p>
 
-  <p class="subscription"><strong>Subscription.</strong> On a fresh installation, a verified subscription is required after setup. Eligible Apple Accounts can confirm Apple’s 14-day introductory free trial, then the selected monthly or annual plan renews automatically unless cancelled. Ineligible accounts start the standard paid subscription when purchase is confirmed. If plans or status are unavailable, first run offers Retry and Restore Purchases only.</p>
+  <p class="subscription"><strong>Subscription.</strong> On a fresh installation, a verified Monthly or Annual subscription is required after setup. The selected plan renews automatically unless cancelled, and you can cancel anytime in your Apple Account settings. If plans or status are unavailable, first run offers Retry and Restore Purchases only.</p>
 
   <p><a class="cta" href="https://apps.apple.com/app/my-family-world/id6790840913">View My Family World on the App Store</a></p>
-  <p class="cta-note">Apple shows the version, local price, billing period and any introductory offer for which the Apple Account is eligible.</p>
+  <p class="cta-note">The App Store shows the current version, and Apple shows the local price and billing period before you confirm a purchase.</p>
 
   <section class="panel" aria-labelledby="support-title">
     <h2 id="support-title">Support</h2>
-    <p>For help with setup, subscriptions, reminders, sharing, backup, the Family calendar in version 1.6 or another app feature, email <a href="mailto:msallam_issa@hotmail.com">msallam_issa@hotmail.com</a>. Include the app version and what you were trying to do, but do not email a child’s name or private health details.</p>
+    <p>For help with setup, subscriptions, reminders, sharing, backup, the Family calendar in version 1.6 or another app feature, email <a href="mailto:msalamissa@alumni.ie.edu">msalamissa@alumni.ie.edu</a>. Include the app version and what you were trying to do, but do not email a child’s name or private health details.</p>
+    <p lang="es">¿Usas My Family World en español? Escríbenos a <a href="mailto:msalamissa@alumni.ie.edu">msalamissa@alumni.ie.edu</a> para recibir ayuda con la configuración, la suscripción, los recordatorios, la copia de seguridad, el Calendario familiar o cualquier otra función. Indica la versión de la app y lo que intentabas hacer, sin incluir el nombre de ningún niño ni datos de salud privados. Consulta también <a href="/index-es.html" hreflang="es">My Family World en español</a>. La Política de privacidad y los Términos y condiciones de uso están en inglés.</p>
   </section>
 
   <p class="links">

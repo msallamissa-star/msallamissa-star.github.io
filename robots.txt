@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://msallamissa-star.github.io/sitemap.xml

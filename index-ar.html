@@ -28,68 +28,66 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"MobileApplication","@id":"https://msallamissa-star.github.io/index-ar.html#app","name":"عالم عائلتي","alternateName":"My Family World","operatingSystem":"iOS","applicationCategory":"LifestyleApplication","inLanguage":["en","ar","es"],"url":"https://msallamissa-star.github.io/index-ar.html","installUrl":"https://apps.apple.com/app/my-family-world/id6790840913","image":"https://msallamissa-star.github.io/assets/brand-icon.png"}
 </script>
-<style>
-  :root{--ivory:#faf3ef;--rose:#f3e0dc;--ink:#3d2f2a;--soft:#715f57;--terracotta:#a84f39;--plum:#5c4652}
-  *{box-sizing:border-box}
-  body{margin:0;min-height:100vh;background:linear-gradient(170deg,var(--ivory),var(--rose));color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;line-height:1.85}
-  main{max-width:760px;margin:auto;padding:32px 20px 72px}
-  .top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:34px}
-  .brand{display:flex;align-items:center;gap:12px}.brand img{width:52px;height:52px;border-radius:14px}.brand b{font:700 1.6rem Georgia,serif;color:var(--plum)}
-  .langs{display:flex;flex-wrap:wrap;gap:6px 16px;margin-inline-start:auto}
-  .lang{color:var(--plum);font-weight:700}
-  h1{font:700 clamp(2rem,7vw,3.5rem)/1.25 Georgia,serif;color:var(--plum);margin:0 0 18px}
-  .lede{font-size:1.25rem;margin:0 0 26px}
-  .release,.panel{background:rgba(255,255,255,.52);border:1px solid rgba(61,47,42,.15);border-radius:14px;padding:16px 18px;margin:0 0 24px}
-  .release{border-inline-start:4px solid var(--terracotta)}
-  .pillars{list-style:none;padding:0;margin:0 0 24px}.pillars li{padding:13px 0;border-top:1px solid rgba(61,47,42,.14)}.pillars li:last-child{border-bottom:1px solid rgba(61,47,42,.14)}
-  .pillars b{color:var(--plum)}
-  .privacy,.subscription{font-size:1.02rem;margin:0 0 22px}
-  .cta{display:inline-block;background:var(--terracotta);color:#fff;text-decoration:none;font-weight:800;padding:14px 24px;border-radius:12px;margin:0 0 10px}
-  .cta-note,.fine{color:var(--soft);font-size:.92rem;margin:0 0 24px}
-  a{color:var(--plum)}.links{line-height:2}
-</style>
+<link rel="stylesheet" href="landing.css" />
+<script src="landing.js" defer></script>
 </head>
-<body>
-<main>
-  <div class="top">
-    <div class="brand"><img src="/assets/brand-icon-180.png" alt="" width="52" height="52" /><b>عالم عائلتي</b></div>
-    <nav class="langs" aria-label="اللغة">
-      <a class="lang" href="/" hreflang="en" lang="en" dir="ltr">English</a>
-      <a class="lang" href="/index-es.html" hreflang="es" lang="es" dir="ltr">Español</a>
-    </nav>
-  </div>
-
-  <h1>عالم عائلتي</h1>
-  <p class="lede">مساحة هادئة واحدة للأم والعائلة: رعاية الأم، والتطوّر، ووجبات صغيرة، ومائدة الكبار، ولوحة العائلة، باللغات العربية والإنجليزية والإسبانية. ويضيف الإصدار <bdi dir="ltr">1.6</bdi> تقويم العائلة. وتتوفر هذه الصفحة أيضًا بالإنجليزية والإسبانية، أما صفحتا الخصوصية والشروط فبالعربية والإنجليزية.</p>
-
-  <p class="release"><strong>التوفر في <bdi dir="ltr" lang="en">App Store</bdi>:</strong> عالم عائلتي متاح على <bdi dir="ltr" lang="en">App Store</bdi> لأجهزة <bdi dir="ltr" lang="en">iPhone</bdi> في دول ومناطق كثيرة، من بينها المملكة العربية السعودية والإمارات العربية المتحدة وسائر دول الخليج والمملكة المتحدة والولايات المتحدة والهند ودول الاتحاد الأوروبي والمكسيك ودول أخرى في أمريكا اللاتينية. والإصدار <bdi dir="ltr">1.6.1</bdi> متاح على <bdi dir="ltr" lang="en">App Store</bdi>.</p>
-
-  <ul class="pillars">
-    <li><b>رعاية الأم.</b> معلومات عامة من الحمل حتى سنة بعد الولادة، مع موضوعات بحسب المرحلة وعلامات خطر عاجلة وروابط إلى مصادر رسمية مسمّاة. يحتفظ الإعداد بإجابة واحدة لرعاية الأم على هذا الجهاز لاختيار المسار والتذكيرات المحلية، ولا يحفظ التصفح أي مرحلة أو موضوع أو عَرَض أو تاريخ أو درجة أو تقييم أو سجل.</li>
-    <li><b>التطوّر.</b> أنشطة قصيرة يقودها البالغ، وإرشادات للقراءة، وحيوانات حقيقية لوقت هادئ معًا.</li>
-    <li><b>وجبات صغيرة.</b> أفكار بحسب العمر مع مسبّبات الحساسية والتحضير الآمن والوصفات وقوائم التسوّق حيثما يتاح القسم.</li>
-    <li><b>مائدة الكبار.</b> تخطيط الغداء والعشاء للبالغين، ووصفات قابلة للبحث، وقوائم تسوّق.</li>
-    <li><b>تقويم العائلة (الإصدار <bdi dir="ltr">1.6</bdi>).</b> خطّط ليومك وللأسبوع المقبل، من الوجبات واللعب إلى الملاحظات والمشتريات، وشارك معاينة ليوم أو أسبوع أو شهر متى شئت. تُحفظ الخطط في التطبيق ولا تُرسل إلى عالم عائلتي، وتُضمَّن في النسخة الاحتياطية المشفّرة، وتُمحى بإعادة ضبط كل التقدّم.</li>
-    <li><b>لوحة العائلة.</b> الملفات والأسبوع وسجل الطهو والتذكيرات والإعدادات والنسخ الاحتياطي والاستعادة في مكان واحد.</li>
-  </ul>
-
-  <p class="privacy"><strong>الخصوصية.</strong> تُحفظ البيانات التي تدخلها الأسرة في مساحة تخزين التطبيق على الجهاز ولا تُرسل تلقائيًا إلى عالم عائلتي. ويُحفظ تفضيل واحد لرعاية الأم من الإعداد في التطبيق ولا يُرسل إلى عالم عائلتي. ويمكن لأحد الوالدين مشاركة محتوى محدد أو تصدير نسخة احتياطية مشفّرة عن قصد. وعلى أجهزة Apple، يتصل التطبيق بصورة منفصلة بخدمات Apple للمنتجات والاستحقاق والشراء والاستعادة، ولا ترسل هذه الفحوص أي بيانات أدخلتها الأسرة إلى عالم عائلتي. وفي الإصدار <bdi dir="ltr">1.6</bdi>، تُحفظ خطط تقويم العائلة في التطبيق أيضًا ولا تُرسل إلى عالم عائلتي، وتُحمَّل صور أغلفة الكتب في قائمة الكتب عبر الإنترنت من <bdi dir="ltr" lang="en">Open Library</bdi>، ومن خوادم <bdi dir="ltr" lang="en">Internet Archive</bdi> لبعض الأغلفة.</p>
-
-  <p class="subscription"><strong>الاشتراك.</strong> عند تثبيت التطبيق تثبيتًا جديدًا، يلزم اشتراك شهري أو سنوي موثّق بعد الإعداد. وتتجدد الخطة المختارة تلقائيًا ما لم يُلغَ الاشتراك، ويمكن إلغاؤه في أي وقت من إعدادات حساب <bdi dir="ltr" lang="en">Apple</bdi>. وإذا تعذّر تحميل الخطط أو الحالة، تتوفر إعادة المحاولة واستعادة المشتريات فقط.</p>
-
-  <p><a class="cta" href="https://apps.apple.com/app/my-family-world/id6790840913">عرض عالم عائلتي في App Store</a></p>
-  <p class="cta-note">يعرض <bdi dir="ltr" lang="en">App Store</bdi> الإصدار الحالي، وتعرض <bdi dir="ltr" lang="en">Apple</bdi> السعر المحلي وفترة الفوترة قبل تأكيد الشراء.</p>
-
-  <section class="panel" aria-labelledby="support-title">
-    <h2 id="support-title">الدعم</h2>
-    <p>للمساعدة في الإعداد أو الاشتراكات أو التذكيرات أو المشاركة أو النسخ الاحتياطي أو تقويم العائلة في الإصدار <bdi dir="ltr">1.6</bdi> أو أي ميزة أخرى، يُرجى إرسال بريد إلى <a href="mailto:msalamissa@alumni.ie.edu" dir="ltr">msalamissa@alumni.ie.edu</a>. يمكن ذكر نسخة التطبيق وما كان يجري تنفيذه، من دون إرسال اسم طفل أو تفاصيل صحية خاصة.</p>
-  </section>
-
-  <p class="links">
+<body data-app-name="عالم عائلتي" data-share-text="وجبات ولعب ورعاية لعائلتك.">
+<a class="skip-link" href="#top">انتقل إلى المحتوى</a>
+<header class="wrap site-header">
+<a class="brand" href="#top"><img src="assets/brand-icon-180.png" alt="" width="48" height="48" /><span>عالم عائلتي</span></a>
+<div class="header-tools"><nav class="page-nav" aria-label="أقسام الصفحة"><a href="#how">كيف يعمل التطبيق</a><a href="#inside">ما الذي يقدّمه التطبيق</a><a href="#support-title">الدعم</a></nav>
+<nav class="langs" aria-label="اللغة"><a href="index.html" hreflang="en" lang="en" dir="ltr">English</a><a href="index-es.html" hreflang="es" lang="es" dir="ltr">Español</a></nav></div>
+</header>
+<main class="wrap" id="top">
+<section class="hero" aria-labelledby="hero-title">
+<div><span class="eyebrow">لك ولطفلك</span><h1 id="hero-title">وجبات ولعب ورعاية لعائلتك.</h1><p class="lead">اكتشف أفكارًا للوجبات، ولعبًا وكتبًا بحسب العمر، ورعاية الأم من الحمل حتى السنة الأولى بعد الولادة. اجمع الأفكار التي تختارها في تقويم عائلتك.</p>
+<div class="actions"><a class="btn" href="https://apps.apple.com/app/my-family-world/id6790840913">عرض التطبيق في <bdi dir="ltr" lang="en">App Store</bdi></a><a class="btn secondary" href="#how">كيف يعمل التطبيق</a></div>
+<div class="hero-notes"><p>لأجهزة <bdi dir="ltr" lang="en">iPhone</bdi> · بالعربية والإنجليزية والإسبانية<br />يلزم اشتراك بعد الإعداد.</p><p class="cta-note">يعرض <bdi dir="ltr" lang="en">App Store</bdi> الإصدار الحالي، وتعرض <bdi dir="ltr" lang="en">Apple</bdi> السعر المحلي وفترة الفوترة قبل تأكيد الشراء.</p></div></div>
+<figure><div class="phone"><img src="assets/calendar-ar.png" alt="تقويم العائلة في عالم عائلتي" width="1320" height="2868" fetchpriority="high" /></div><figcaption class="screen-caption">تقويم العائلة في عالم عائلتي</figcaption></figure>
+</section>
+<section class="section how" id="how" aria-labelledby="how-title"><span class="eyebrow">خطوات بسيطة ليومك</span><h2 id="how-title">اختر القليل. خطّط لما يناسبك.</h2>
+<div class="step-grid"><div><span class="step-num">01</span><h3>اختر أفكارًا</h3><p>اكتشف وجبة لتحضيرها، أو كتابًا لقراءته، أو نشاطًا لتجربته مع طفلك.</p></div>
+<div><span class="step-num">02</span><h3>رتّب خطتك</h3><p>أضف الأفكار التي تختارها إلى تقويمك، مع ملاحظاتك وقائمة مشترياتك.</p></div>
+<div><span class="step-num">03</span><h3>شارك نسخة من خطتك</h3><p>عاين يومًا أو أسبوعًا أو شهرًا، واختر من تشاركه المعاينة. وتبقى التعديلات اللاحقة على جهازك.</p></div></div>
+<details><summary>المزيد عن تقويم العائلة</summary><ul class="feature-facts"><li><b>تقويم العائلة (الإصدار <bdi dir="ltr">1.6</bdi>).</b> خطّط ليومك وللأسبوع المقبل، من الوجبات واللعب إلى الملاحظات والمشتريات، وشارك معاينة ليوم أو أسبوع أو شهر متى شئت. تُحفظ الخطط في التطبيق ولا تُرسل إلى عالم عائلتي، وتُضمَّن في النسخة الاحتياطية المشفّرة، وتُمحى بإعادة ضبط كل التقدّم.</li></ul></details>
+</section>
+<section class="section" id="inside" aria-labelledby="inside-title"><div class="section-heading"><span class="eyebrow">مساحة هادئة واحدة</span><h2 id="inside-title">لحياة العائلة، ولك أيضًا.</h2></div>
+<div class="feature-grid"><article class="feature">
+<div class="feature-top"><img src="assets/sec-play.jpg" alt="" width="66" height="66" loading="lazy" /><div><h3>التطوّر</h3><p>أفكار للعب وكتب وحيوانات حقيقية تستكشفها مع طفلك.</p></div></div>
+<details><summary>المزيد عن هذا القسم</summary><ul class="feature-facts"><li><b>التطوّر.</b> أنشطة قصيرة يقودها البالغ، وإرشادات للقراءة، وحيوانات حقيقية لوقت هادئ معًا.</li></ul></details>
+</article><article class="feature">
+<div class="feature-top"><img src="assets/sec-babyfood.jpg" alt="" width="66" height="66" loading="lazy" /><div><h3>وجبات صغيرة</h3><p>أفكار للوجبات بحسب العمر، ووصفات ومسبّبات الحساسية والتحضير الآمن حيثما يتاح القسم.</p></div></div>
+<details><summary>المزيد عن هذا القسم</summary><ul class="feature-facts"><li><b>وجبات صغيرة.</b> أفكار بحسب العمر مع مسبّبات الحساسية والتحضير الآمن والوصفات وقوائم التسوّق حيثما يتاح القسم.</li></ul></details>
+</article><article class="feature">
+<div class="feature-top"><img src="assets/sec-mothercare.jpg" alt="" width="66" height="66" loading="lazy" /><div><h3>رعاية الأم</h3><p>معلومات عامة من الحمل حتى السنة الأولى بعد الولادة.</p></div></div>
+<details><summary>المزيد عن هذا القسم</summary><ul class="feature-facts"><li><b>رعاية الأم.</b> معلومات عامة من الحمل حتى سنة بعد الولادة، مع موضوعات بحسب المرحلة وعلامات خطر عاجلة وروابط إلى مصادر رسمية مسمّاة. يحتفظ الإعداد بإجابة واحدة لرعاية الأم على هذا الجهاز لاختيار المسار والتذكيرات المحلية، ولا يحفظ التصفح أي مرحلة أو موضوع أو عَرَض أو تاريخ أو درجة أو تقييم أو سجل.</li></ul></details>
+</article><article class="feature">
+<div class="feature-top"><img src="assets/sec-parenttable.jpg" alt="" width="66" height="66" loading="lazy" /><div><h3>مائدة الكبار</h3><p>وجبات للبالغين، ووصفات قابلة للبحث، وقوائم تسوّق.</p></div></div>
+<details><summary>المزيد عن هذا القسم</summary><ul class="feature-facts"><li><b>مائدة الكبار.</b> تخطيط الغداء والعشاء للبالغين، ووصفات قابلة للبحث، وقوائم تسوّق.</li></ul></details>
+</article></div>
+<div class="dashboard-note"><h3>لوحة العائلة</h3><p>الملفات وسجل الطهو والتذكيرات والإعدادات والنسخ الاحتياطي والاستعادة في مكان واحد.</p><details><summary>المزيد عن لوحة العائلة</summary><ul class="feature-facts"><li><b>لوحة العائلة.</b> الملفات والأسبوع وسجل الطهو والتذكيرات والإعدادات والنسخ الاحتياطي والاستعادة في مكان واحد.</li></ul></details></div>
+</section>
+<section class="section details-section" aria-label="الخصوصية والاتصالات عبر الإنترنت">
+<div class="fact-panel"><h3>خطتك تبقى معك.</h3><p>تُحفظ خطط العائلة على هذا الجهاز. وأنت تختار متى تشارك محتوى محددًا أو تصدّر نسخة احتياطية مشفّرة.</p><details><summary>الخصوصية والاتصالات عبر الإنترنت</summary><div class="disclosure-body"><p class="privacy"><strong>الخصوصية.</strong> تُحفظ البيانات التي تدخلها الأسرة في مساحة تخزين التطبيق على الجهاز ولا تُرسل تلقائيًا إلى عالم عائلتي. ويُحفظ تفضيل واحد لرعاية الأم من الإعداد في التطبيق ولا يُرسل إلى عالم عائلتي. ويمكن لأحد الوالدين مشاركة محتوى محدد أو تصدير نسخة احتياطية مشفّرة عن قصد. وعلى أجهزة Apple، يتصل التطبيق بصورة منفصلة بخدمات Apple للمنتجات والاستحقاق والشراء والاستعادة، ولا ترسل هذه الفحوص أي بيانات أدخلتها الأسرة إلى عالم عائلتي. وفي الإصدار <bdi dir="ltr">1.6</bdi>، تُحفظ خطط تقويم العائلة في التطبيق أيضًا ولا تُرسل إلى عالم عائلتي، وتُحمَّل صور أغلفة الكتب في قائمة الكتب عبر الإنترنت من <bdi dir="ltr" lang="en">Open Library</bdi>، ومن خوادم <bdi dir="ltr" lang="en">Internet Archive</bdi> لبعض الأغلفة.</p></div></details></div>
+<div class="fact-panel"><h3>مصادر واضحة. وحدود واضحة.</h3><p>تتضمن رعاية الأم معلومات عامة وعلامات خطر عاجلة وروابط إلى مصادر رسمية مسمّاة.</p><p>ولا تشخّص الأعراض ولا تقيّمها ولا تحل محل الطبيب. ولم تراجع المصادر المسمّاة التطبيق أو تعتمده أو تزكّه.</p></div>
+<details class="wide-detail"><summary>الاشتراك والمشتريات</summary><div class="disclosure-body"><p class="subscription"><strong>الاشتراك.</strong> عند تثبيت التطبيق تثبيتًا جديدًا، يلزم اشتراك شهري أو سنوي موثّق بعد الإعداد. وتتجدد الخطة المختارة تلقائيًا ما لم يُلغَ الاشتراك، ويمكن إلغاؤه في أي وقت من إعدادات حساب <bdi dir="ltr" lang="en">Apple</bdi>. وإذا تعذّر تحميل الخطط أو الحالة، تتوفر إعادة المحاولة واستعادة المشتريات فقط.</p>
+<p><a class="cta" href="https://apps.apple.com/app/my-family-world/id6790840913">عرض عالم عائلتي في App Store</a></p></div></details>
+<details class="wide-detail"><summary>عن التطبيق والتوفر في <bdi dir="ltr" lang="en">App Store</bdi></summary><p class="lede">مساحة هادئة واحدة للأم والعائلة: رعاية الأم، والتطوّر، ووجبات صغيرة، ومائدة الكبار، ولوحة العائلة، باللغات العربية والإنجليزية والإسبانية. ويضيف الإصدار <bdi dir="ltr">1.6</bdi> تقويم العائلة. وتتوفر هذه الصفحة أيضًا بالإنجليزية والإسبانية، أما صفحتا الخصوصية والشروط فبالعربية والإنجليزية.</p>
+<p class="release"><strong>التوفر في <bdi dir="ltr" lang="en">App Store</bdi>:</strong> عالم عائلتي متاح على <bdi dir="ltr" lang="en">App Store</bdi> لأجهزة <bdi dir="ltr" lang="en">iPhone</bdi> في دول ومناطق كثيرة، من بينها المملكة العربية السعودية والإمارات العربية المتحدة وسائر دول الخليج والمملكة المتحدة والولايات المتحدة والهند ودول الاتحاد الأوروبي والمكسيك ودول أخرى في أمريكا اللاتينية. والإصدار <bdi dir="ltr">1.6.1</bdi> متاح على <bdi dir="ltr" lang="en">App Store</bdi>.</p></details>
+</section>
+<section class="section support" aria-labelledby="support-title"><div><h2 id="support-title">الدعم</h2></div><div class="support-copy"><p>للمساعدة في الإعداد أو الاشتراكات أو التذكيرات أو المشاركة أو النسخ الاحتياطي أو تقويم العائلة في الإصدار <bdi dir="ltr">1.6</bdi> أو أي ميزة أخرى، يُرجى إرسال بريد إلى <a href="mailto:msalamissa@alumni.ie.edu" dir="ltr">msalamissa@alumni.ie.edu</a>. يمكن ذكر نسخة التطبيق وما كان يجري تنفيذه، من دون إرسال اسم طفل أو تفاصيل صحية خاصة.</p></div></section>
+<section class="section share-section" aria-labelledby="share-title"><span class="eyebrow">شارك الفكرة</span><h2 id="share-title">هل تعرف عائلة قد يعجبها التطبيق؟</h2><p>شارك رابط <bdi dir="ltr" lang="en">App Store</bdi> مع من تختار.</p>
+<div class="actions"><button class="btn" id="share-app" type="button" aria-controls="sharebox" aria-busy="false">شارك عالم عائلتي</button></div>
+<div class="sharebox" id="sharebox" hidden data-unavailable="المشاركة غير متاحة هنا. يمكنك نسخ الرابط واختيار من ترسله إليه." data-manual="النسخ غير متاح هنا. حدّد الرابط أعلاه وانسخه." data-copied="تم نسخ الرابط. اختر أين تلصقه.">
+<label for="app-link">رابط <bdi dir="ltr" lang="en">App Store</bdi></label><input id="app-link" type="url" readonly value="https://apps.apple.com/app/my-family-world/id6790840913" dir="ltr" />
+<div class="actions"><button class="btn secondary" id="copy-link" type="button" aria-busy="false">نسخ الرابط</button><button class="btn secondary" id="close-share" type="button">إغلاق</button></div>
+<p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+</div>
+</section>
+</main>
+<footer class="wrap site-footer"><div class="footer-top"><a class="brand" href="#top"><img src="assets/brand-icon-180.png" alt="" width="36" height="36" /><span>عالم عائلتي</span></a><p class="links">
     <a href="/privacy-ar.html">سياسة الخصوصية</a> · <a href="/terms-ar.html">شروط الاستخدام</a><br />
     <a href="https://www.instagram.com/myworld.parents/" dir="ltr">@myworld.parents</a>
-  </p>
-  <p class="fine">تقدّم رعاية الأم معلومات عامة وإرشادًا بشأن طلب الرعاية العاجلة. ولا تشخّص الأعراض ولا تقيّمها ولا تحل محل الطبيب. ولم تراجع المصادر المسمّاة عالم عائلتي أو تعتمد التطبيق أو تزكّه.</p>
-</main>
+  </p></div><p class="fine">تقدّم رعاية الأم معلومات عامة وإرشادًا بشأن طلب الرعاية العاجلة. ولا تشخّص الأعراض ولا تقيّمها ولا تحل محل الطبيب. ولم تراجع المصادر المسمّاة عالم عائلتي أو تعتمد التطبيق أو تزكّه.</p></footer>
 </body>
 </html>

@@ -53,7 +53,7 @@
   <div class="brand"><img src="/assets/brand-icon.png" alt="" /><span>My Family World</span></div>
   <header>
     <h1>My Family World Privacy Policy</h1>
-    <div class="updated">Last updated: 4 October 2026</div>
+    <div class="updated">Last updated: 12 October 2026</div>
   </header>
 
   <p class="version-note"><strong>Release status:</strong> Version 1.7 is available on the App Store. Until your device installs version 1.7, the sections that apply to the version already on your device describe the app; version 1.6.1 is the release before 1.7. The version 1.7 scope below applies once the update is installed.</p>
@@ -63,6 +63,8 @@
   <p id="version-1-6-1-policy-scope"><strong>Version 1.6.1 policy scope:</strong> Everything this policy says about version 1.6 also applies to version 1.6.1. Version 1.6.1 corrects version 1.6 and sends nothing new. The one new item it saves is a Parent Table allergy review marker: it is set only when the saved Parent Table allergy list is missing or damaged, it keeps Parent Table recipes closed until you confirm your allergy settings, it is stored locally in the app with the other Parent Table settings, and it is included in the encrypted backup.</p>
 
 <p id="version-1-7-policy-scope"><strong>Version 1.7 policy scope:</strong> Everything this policy says about versions 1.6 and 1.6.1 also applies to version 1.7. Version 1.7 changes the Home screen and the look of the sections, makes the Family calendar week easier to read, lets you mark a saved plan done and undo that mark, and lets you copy a saved plan to another day. Those marks and copies are stored with your other calendar entries in the app, are included in the encrypted backup and are removed by Reset all progress. Daily planning reminders are optional local notifications: you can choose up to two times per day and turn them off in the app, and they do not read your calendar plans. The app may occasionally ask Apple&#8217;s system to show a neutral review prompt; the system decides whether it appears, a local record limits how often the app makes that request, and there are no daily review reminders. Sharing is optional and starts only when you choose Share: the app opens the system share sheet where available, offers an explicit copy action if sharing is unavailable, and sends nothing when you cancel. Sharing the Family calendar text and sharing a link that invites someone to the app are separate actions. Version 1.7 sends nothing new to My Family World.</p>
+
+<p id="version-2-0-policy-scope"><strong>Version 2.0 policy scope:</strong> Everything this policy says about version 1.7 also applies to version 2.0, except where the sections marked version 2.0 below say otherwise. Version 2.0 adds an optional sharing account, a family circle for sharing the plans you choose with people you invite, and optional family circle alerts. You can use My Family World without an account, and what you enter stays in the app on your phone. Sharing is optional. If you choose to share plans with your family circle, you create a sharing account with your email address, and the plans, messages and circle details you share are stored with our service provider, Google Firebase, so the people you invite can see them. We do not sell your data, show advertising or track you.</p>
 
   <p>My Family World ("the app", "we") is a calm companion for a parent and a young child: meal plans and a Development section with play ideas, age&#8209;right reading guidance and real animal media, and, in version 1.6, a Family calendar for planning the day and the week ahead. This policy explains, in plain language, what the app does and does not do with your information. It is written to be honest and complete. If anything here is unclear, contact us at the address at the end.</p>
 
@@ -94,6 +96,25 @@
     <li><strong>Version 1.6 encrypted backup:</strong> contains the version 1.3 backup set plus all Family calendar entries and notes, which are checked when the backup is restored.</li>
   </ul>
   <p>You choose the recipient or destination in the iOS share sheet. In version 1.1, after you tap a text share control, a non-cancelled native or Web Share failure may copy the text to your clipboard. Where no share API is available, the app may instead open a prefilled WhatsApp page, with clipboard copy as the final fallback. In version 1.3, a native share-sheet failure reports the problem and does not copy the text or open another destination automatically. After you send a share or backup to another person or service, that recipient or service handles the copy under its own privacy practices.</p>
+
+  <h2 id="sharing-account">Sharing account and family circle (version 2.0)</h2>
+  <p>The sharing account and family circle are optional and for adults. To share, you create an account with your email address and a password. Firebase Authentication, a Google service, stores your email address and handles your password; we cannot read your password. It sends the verification and password reset emails. When you add someone, the app creates an invitation link and code that expire after three days. Only a person who uses that invitation and whom you approve joins your circle; there is no search by email or name and no public directory. When you ask to join someone&#8217;s circle, they see your verified email before they accept you.</p>
+  <p>When you share, we store only what you choose to share and what the circle needs to work: the plans you share (date, time, title, notes, location text you type, linked app recipe or activity, meal occasion, preparation, things to bring, helper and done state, repeat rule), shared shopping items and help requests, the short messages you send to a person in your circle, the name or label you choose for the circle, invitations and join requests, membership state, and your account identifier. Plans you keep private, child profiles, Mother Care, food settings and allergies, cooking history, favourites, reminders and backups are never sent. Shared plans can include a child&#8217;s name or a health detail if you type one; share only what you are comfortable sharing with that person.</p>
+
+  <h2 id="alerts">Alerts (version 2.0)</h2>
+  <p>If you allow alerts, the app stores an alert registration for your account: the notification token from Apple or Google, the platform, the app language, a random installation identifier and the time. The app asks once, after your first share or after you join a circle. Alerts say only that something is new in your family circle; they never contain plan details, names or messages. Apple Push Notification service and Firebase Cloud Messaging deliver them. You can turn alerts off in Family circle, under Account, or in your phone&#8217;s settings. Signing out or deleting your sharing account removes the registration.</p>
+
+  <h2 id="service-provider">Our service provider and where data is processed (version 2.0)</h2>
+  <p>Google LLC provides Firebase to us as a service provider (processor). Firebase Authentication processes account data in the United States. The shared calendar database and the alert sender run in Google Cloud&#8217;s me-central1 region (Doha, Qatar). The alert sender reads only the recipient&#8217;s account state and alert registration, never plan content, and logs only a shortened account identifier and the outcome. Invitation and open pages are served by Firebase Hosting at my-family-world-f6ad8.web.app on Google&#8217;s global network. Your data may therefore be processed outside your country. Google processes it under its Firebase terms and data processing terms for providing the service to us, not for advertising.</p>
+
+  <h2 id="keeping-deleting-shared">Keeping and deleting shared data (version 2.0)</h2>
+  <p>What you share stays until you stop sharing it, remove the person or delete the sharing account. Removing someone from your circle deletes the plans and messages the two of you shared, for both of you; copies either of you added to your own calendar stay on that phone. Leaving a shared calendar removes it from your view. Delete sharing account in the app deletes your account, the calendars you own and your memberships; plans you contributed to someone else&#8217;s calendar remain there, and minimal deletion markers remain so old data cannot return. Notices older than 30 days and shared plans dated more than 30 days ago are eligible for cleanup when the app opens online, and cleanup may be retried on a later opening. Reset all progress and deleting the app do not delete the sharing account. If you cannot use the app, email us from the address on your sharing account and we will delete the account and the data stored with it within 30 days.</p>
+
+  <h2 id="reminders-2-0">Reminders in version 2.0</h2>
+  <p>Daily planning reminders and optional reminders on individual plans are local notifications scheduled on your phone after you allow notifications. They are not sent through our service provider. Family circle alerts are separate and described above.</p>
+
+  <h2 id="update-notice">Update notice and suggestions (version 2.0)</h2>
+  <p>Home may show that a newer version is available. The app asks Apple&#8217;s public App Store lookup for the current version, sending no family data, and lets you dismiss the notice. &#8220;Have an idea for the app?&#8221; opens a draft in your own email app; nothing is sent unless you send it, and no family data is attached.</p>
 
   <h2>The two things you can choose to send us</h2>
   <p><strong>Versions 1.5, 1.5.1 and 1.6:</strong> Updates email and feature-request sending remain disabled. The app makes no submissions or automatic retries for these features. The possible future sending described below is not a feature of these versions. Voluntary support email sent through your own email service is separate and is described under Support email.</p>
@@ -132,15 +153,16 @@
   <ul>
     <li>No third&#8209;party analytics or tracking SDKs.</li>
     <li>No advertising of any kind.</li>
-    <li>No selling, renting, or developer&#8209;initiated sharing of your information.</li>
-    <li>No accounts, no login, no cloud sync.</li>
-    <li>No push server; reminders are scheduled only on your device.</li>
+    <li>No selling, renting, or developer&#8209;initiated sharing of your information. In version 2.0 the only service that receives what you share is our service provider for the optional sharing feature, described above.</li>
+    <li>No cloud storage of anything you do not share. The optional sharing account in version 2.0 is the only account; without it the app works with no login.</li>
+    <li>Reminders are scheduled only on your device; in version 2.0 the only push notifications are the optional family circle alerts.</li>
   </ul>
 
   <h2>How to review or delete your data</h2>
   <p>Because family-entered data is stored locally in the app, you control the copy on this device:</p>
   <ul>
     <li>Open <strong>Grown&#8209;Ups in version 1.1 or Family Dashboard in version 1.3 &rarr; Settings &rarr; Reset all progress</strong>. The confirmation in your installed version summarises what it will erase; more detail follows, including the Family calendar in version 1.6. In version 1.3 this erases saved activity, cooking logs, Little Meals and household-wide Parent Table food settings, favourites, and saved or queued feature requests (a quick grown&#8209;up check guards this). The family setup, selected language, colour theme, reminders, and any locally saved updates email remain; review every food setting before planning the next meal. In version 1.6, Reset all progress also erases all Family calendar entries and notes, and removing a child profile removes that child's calendar entries. You can also delete a single plan from the calendar itself. Restoring an encrypted backup replaces the calendar on this device with the calendar in that backup; a backup made before version 1.6 contains no calendar, so restoring it leaves the calendar empty. Otherwise, calendar entries stay until you delete them.</li>
+    <li><strong>Sharing account (version 2.0):</strong> open Family circle, then Account, then Delete sharing account. Reset all progress and deleting the app do not delete the sharing account. If you cannot use the app, email us from the address on your sharing account and we will delete the account and the data stored with it within 30 days.</li>
     <li>Or delete the app, which removes the app's local storage container from that device. Copies you deliberately shared or exported, copies held by recipients, and device or iCloud backups are outside My Family World's control and may remain until you delete them through the relevant app or Apple backup settings.</li>
   </ul>
 
